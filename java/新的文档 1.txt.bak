@@ -1,0 +1,14 @@
+import java.util.*;
+public class while
+{
+	public static void main(String[] args){
+	int a = 1;
+	while(a <= 100){
+		int i=1;
+		i++;
+	}
+	
+	
+	}
+
+}

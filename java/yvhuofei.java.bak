@@ -1,0 +1,18 @@
+import java.util.*;
+public class yvhuofei{
+public static void main(String[] args)
+{
+	Scanner sca = new Scanner(System.in);
+	char zh = 'a';
+	char mm = 'b';
+	System.out.println("请输入账号：");
+	String zh1 = sca.next();
+	System.out.println("请输入密码：");
+	String mm1 = sca.next();
+	char c1 = zh1.charAt(2);
+	char c2 = mm1.charAt(2);
+	if(zh == c1 && mm == c2){
+		System.out.println("账号输入正确，正在登陆。");
+	}
+}
+}

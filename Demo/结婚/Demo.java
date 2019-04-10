@@ -9,8 +9,8 @@ public class Demo {
 	boy.fere = girl;
 	boolean a = boy.Sh1(girl);
 	System.out.println(a);
-	
-	
+	System.out.println("女方伴侣为"+girl.fere.pName);
+	System.out.println("男方伴侣为"+boy.fere.pName);
 	
 	}
 }
